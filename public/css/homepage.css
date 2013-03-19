@@ -1,15 +1,61 @@
 body {
-
+  font-family: 'Lato', sans-serif;
 }
 
 body .container #header {
-  background: red;
-  height: 100px;
+  background: #0C5AA6;
+  height: 30px;
 }
 	
-body .container #content {
-  background: green;
-  height: 100px;
+body .container #content #cover {
+  background: #FF4100;
+  height: 900px;
+}
+
+#cover .title {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 150px; 
+  line-height: 135px;
+  color: #ECECEC;
+
+  margin-top: 150px;
+}
+
+#cover .teaser {
+  text-align: center;
+}
+
+#cover .short-description {
+  font-weight: 100;
+  font-size: 50px;
+  color: #ECECEC;
+  
+  margin-top: 250px;
+}
+
+#cover .call-for-action {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+  color: #ECECEC;
+  
+  margin-top: 100px;
+}
+
+#cover .learn-more {
+  font-weight: 100;
+  color: #ECECEC;
+
+  font-size: 35px;
+  text-align: center;
+
+  position: fixed;
+  bottom: 15px;
+}
+
+#cover .learn-more i {
+  display: block
 }
 
 body .container #footer {
