@@ -1,0 +1,36 @@
+body {
+
+}
+
+body .container #header {
+  background: red;
+  height: 100px;
+}
+	
+body .container #content {
+  background: green;
+  height: 100px;
+}
+
+body .container #footer {
+  background: blue;
+  height: 100px;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}

@@ -1,14 +1,12 @@
 !!!
 %html
   %head
-    %title= @title || SiteConfig.title
-    %link{:href => '/main.css', :rel => 'stylesheet', :type => 'text/css'}
+    %title= @title  
+    %link{:href => '/css/1140.css', :rel => 'stylesheet', :type => 'text/css'}
+    %link{:href => '/css/ie.css', :rel => 'stylesheet', :type => 'text/css'}
+    %link{:href => '/css/homepage.css', :rel => 'stylesheet', :type => 'text/css'}
   %body
-    #container
-      #header
-        #logo
-          %h1
-            %a{:href => '/'}= SiteConfig.title
-      #content= yield
-      #footer
-        %p#legal= "&mdash; &copy; #{Time.now.strftime('%Y')} #{SiteConfig.author} &mdash;"
+    .container
+      #header.twelvecol
+      #content.twelvecol= yield
+      #footer.twelvecol
